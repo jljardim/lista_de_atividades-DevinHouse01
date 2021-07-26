@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <script defer src="index.js" ></script>
+    <title>Lista de Atividades</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <fieldset>
+    <form id="form">
+        <label for="inputItens">Tarefa</label>
+        <input id="inputItens" type="text" placeholder="adicionar tarefa" >
+        <button type="submit" id="btnAdd">Salvar Tarefa</button>
+    </fieldset>
+    </form>
+    <fieldset>
+        <div id="listaTarefa">
+            <label class="todo__item " id="todoList">
+            <input id="checkbox" type="checkbox">
+            <div id="divConteudo"></div>
+            <input id="btnExcluir" type="button" value="X">
+            </label>
+        </div>
+    </fieldset>
+        
+   <div id="botao">
+       <button id="btnSalvar">Salvar Lista</button> 
+    </div>
+     
+</body>
+</html>
